@@ -1,6 +1,28 @@
-﻿.venv/
+
+# Python cache files
 __pycache__/
+*.py[cod]
 *.pyc
-.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
 *.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
