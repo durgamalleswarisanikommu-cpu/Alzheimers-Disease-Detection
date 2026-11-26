@@ -286,7 +286,7 @@ if uploaded_file is not None:
             st.image(
                 image,
                 caption="Uploaded MRI Image",
-                use_container_width=True
+                use_column_width=True
             )
 
             st.success("✅ MRI image uploaded successfully")
